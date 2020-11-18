@@ -1,0 +1,21 @@
+.pp{
+    font-size: 2em;
+}
+.hed{
+    text-align: center;
+}
+img{
+    padding: 10px;
+    height: 70vh;
+    width: 45vh;
+    border-radius: 20px;
+}
+.content{
+    text-align: center;
+}
+.container{
+    background-color: cyan;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 0px 12px 3px black;
+}

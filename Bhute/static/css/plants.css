@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(19, 18, 18);
+}
+.header-div{
+    /* background-image: url("{% static 'images/hede.jpg' %}"); */
+    background-image: linear-gradient(45deg,#db2044,#e233b8) ;
+    height: 25vh;
+    padding: 12px;
+    border-bottom-left-radius: 39px;
+    border-bottom-right-radius: 39px;
+    box-shadow: 0px 0px 10px 3px rgb(3, 1, 1);
+    /* position: sticky;
+    top: 10px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    color: #631250;
+    /* background-image: linear-gradient(180deg,#6820db,#33bfe2); */
+    
+}
+
+.navbar{
+    background-color: rgb(8, 8, 8);
+    border-radius: 5vh;
+    padding: 2vh;
+    width: 90%;
+    margin: auto;
+    font-size: 0.9em;
+    position: sticky;
+    top: 2vh;
+    box-shadow: 0px 0px 5px 2px rgb(0, 225, 255);
+    
+}
+.navbar:hover{
+    box-shadow: 0px 0px 5px 2px rgb(0, 225, 255);
+    background-color: rgb(48, 47, 47);
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#e233b8 ;
+    text-decoration: none;
+    
+}
+
+
+.PLANTS{
+    color: rgb(39, 235, 98);
+    font-size: 8vh;
+    text-align: center;
+    padding-bottom: 20px;
+}
+li{
+    font-size: 8vh;
+    text-align: center;
+    list-style-type:none;
+    
+    
+}
+#myinput{
+    background-color: #eeeeee;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+    width: 90%;
+    border: 0px;
+    padding: 1vh;
+    text-align: center;
+}
+#myinput:focus{
+    outline: 0;
+}
+.input{
+    padding-top: 5vh;
+    text-align: center;
+    position: sticky;
+    top: 10vh;
+}
+#p{
+    text-align: center;
+    font-size: 3vh;
+    color: aliceblue;
+    
+}
+#mog{
+    margin: auto;
+    display: none;
+    text-align: center;
+}    
+.para{
+    font-size: 2rem;
+    text-align: center;
+    color: aqua;
+}
+.a{
+    font-size: 10vh;
+}

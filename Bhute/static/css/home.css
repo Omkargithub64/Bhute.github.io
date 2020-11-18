@@ -1,0 +1,63 @@
+.header-div{
+    /* background-image: url("{% static 'images/hede.jpg' %}"); */
+    background-image: linear-gradient(45deg,#db2044,#e233b8) ;
+    height: 200px;
+    padding: 12px;
+    border-bottom-left-radius: 39px;
+    border-bottom-right-radius: 39px;
+    text-align: center;
+    box-shadow: 0px 0px 14px 3px rgb(17, 6, 6);
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vh;
+    color: rgb(0, 8, 3);
+}
+body{
+    background-color: aliceblue;
+    
+}
+.navbar{
+    background-color: rgb(8, 8, 8);
+    border-radius: 19px;
+    padding: 12px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 12px 1px rgb(43, 41, 41);
+
+}
+.navbar:hover{
+    box-shadow: 0px 0px 12px 1px rgb(253, 2, 2);
+
+}
+a:active{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color:#e233b8 ;
+}
+.message{
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white ;
+}
+.welcome{
+    font-size: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
